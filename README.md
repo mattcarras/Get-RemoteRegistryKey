@@ -6,7 +6,7 @@ The value to check is comma-delimited in the format of 'reghive,path,valuename'.
 **.PARAMETER Computername**  
    Strings. Required. Name of the local or remote system/s. You may give multiple computernames.
 
-**.PARAMETER RegKey**
+**.PARAMETER RegKey**  
    Strings. Required. Name of the key as a string or list of strings. The value to check is comma-delimited in the format of 'reghive,path,valuename'. Ex: 'HKLM,SOFTWARE\Microsoft\Windows NT\CurrentVersion,ProductName'  
    
 **.PARAMETER ShowOnlyValid**  
